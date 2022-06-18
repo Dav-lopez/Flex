@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Lexend+Deca">
+        <link rel="stylesheet" href="https://fonts.google.com/specimen/Big+Shoulders+Display">
+    </head>
+    <body>
+        <div><a href="grid.html"> Go to Grid</a></div>
+        <section style="display:flex;">
+            <div style="background-color:hsl(31, 77%, 52%)">
+                <img src="icon-sedans.svg" alt="" srcset="">
+                <h2>SEDANS</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident adipisci optio libero labore eveniet est.
+                </p>
+                <button style="color:rgb(226,133,37);border: 1px solid rgb(226,133,37)">Learn More</button>
+            </div>
+            <div style="background-color:hsl(184, 100%, 22%)">
+                <img src="icon-suvs.svg" alt="" srcset="">
+                <h2>SUVS</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident adipisci optio libero labore eveniet est.
+                </p>
+                <button style="color:rgb(1,105,114);border: 1px solid rgb(1,105,114)">Learn More</button>
+            </div>
+            <div style="background-color:hsl(179, 100%, 13%)">
+                <img src="icon-luxury.svg" alt="" srcset="">
+                <h2>LUXURY</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur adipisicing elit. Provident adipisci optio libero labore eveniet est.
+                </p>
+                <button style="color:rgb(0,64,63);border: 1px solid rgb(0,64,63)">Learn More</button>
+            </div>
+        </section>
+    </body>
+    <style>
+        body{
+            background-color: hsl(0, 0%, 95%);
+        }
+        section {
+            justify-content: center;
+            height:100vh;
+            align-items: center;
+        }
+        section div {
+            height: 350px;
+            width: 250px;
+            /* text-align: center; */
+        }
+        section div img {
+            margin-left: 20%;
+            margin-top: 40px;
+        }
+        section div h2 {
+            margin-left: 20%;
+            margin-top:0;
+            color: white;
+            font-family: "Big Shoulders Display";
+            font-size: 25px;
+            font-weight: 700;
+            /* text-align: center; */
+        }
+        section div p {
+            margin-left: 15px;
+            margin-right: 15px;
+            margin-top:0;
+            color: white;
+            font-family: "Lexend Deca";
+            font-size: 15px;
+            font-weight: 400;
+            /* text-align: center; */
+        }
+        section div button {
+            margin-left: 20%;
+            margin-top:40px;
+            border-radius: 20%;
+            /* color: transparent; */
+            padding: 7px;
+            
+
+            /* text-align: center; */
+        }
+        section div button:hover {
+            
+            background-color: transparent;
+            color: white !important;
+            border: 1px solid white !important;
+            
+        }
+    </style>
+</html>

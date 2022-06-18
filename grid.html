@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <div class="outterdiv">
+        <div><a href="index.html"> Go to Flex</a></div>
+        <section class="gridContainer">
+            <div class="a"></div>
+            <div class="b"></div>
+            <div class="c"></div>
+            <div class="d"></div>
+            <div class="e"></div>
+        </section>
+    </div>
+    
+</body>
+<style>
+    body{
+        background-color: hsl(0,0%,15%);
+    }
+    
+    
+    .gridContainer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        background-color: hsl(231,21%,13%);
+        padding: 20px 40px;
+        gap: 10px 10px;
+        grid-template-rows: 150px 150px 150px 150px;
+        align-content: center;
+        width: 50%;
+        height:50%;
+        margin: auto;
+        transform: translateY(5%);
+        
+    }
+
+    section div{
+        background-color: rgba(255, 255, 255, 0.8);
+        border: 1px solid rgba(0, 0, 0, 0.8);
+        padding: 20px;
+        font-size: 30px;
+        text-align: center;
+    }
+    .a{
+        grid-column: 1 / span 2;
+        grid-row: 1 / span 2;
+        background-color: hsl(14,84%,52%);
+    }
+    .b{
+        grid-column: 3;
+         grid-row: 1 / span 2;
+         background-color: hsl(39,100%,50%);
+    }
+    .c {
+        grid-column: 1;
+        grid-row: 3 / span 2;
+        background-color:hsl(142,94%,34%);
+    }
+    .d {
+        grid-column: 2/ span 2;
+        grid-row: 3;
+        background-color:hsl(199,99%,50%);
+    }
+    .e {
+        grid-column: 2/ span 2;
+        grid-row: 4;
+        background-color:hsl(199,99%,50%);
+    }
+</style>
+</html>
